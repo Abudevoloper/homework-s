@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 1500px;
+    background-color:#899523;
+    background-repeat: no-repeat;   
+}
+
+#navbarSupportedContent ul li a{
+   color:#fff;
+   padding:20px;
+   font-size: 20px;
+   font-family:monospace;
+}
+#navbarSupportedContent ul li a:hover{
+    color:red;
+}
+h1{
+    color:#fff;
+    font-size: 2em;
+    font-family:serif;
+    position: absolute;
+    width:30%;
+    text-align: center;
+    left:36%;
+    animation:slide 2s ease-in;
+}
+h1 a{
+    color:red;
+    text-decoration: none;
+    margin: 0;
+    padding:0;
+}
+h1 a:hover{
+    color:#fff;
+}
+@keyframes slide{
+    to{
+        opacity:2;
+    }
+    from{
+         opacity:0 ;
+    }
+   
+
+}
+
